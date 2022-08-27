@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+body {
+  font-size: 16px;
+  background-color: hsl(225, 100%, 94%);
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main {
+  background-color: #fff;
+  max-width: 416px;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+img#inllustration-hero {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: white;
+  padding:0 1.9rem;
+  height: 65%;
+  width: 100%;
+  margin-top: -4px;
+  border-radius: 0 0 1rem 1rem;
+}
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+.descripton {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  padding: 0 0.5rem;
+}
+.informations {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+}
+.music-price {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.price strong {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+.price span {
+  display: block;
+  color: hsl(224, 23%, 55%);
+}
+.informations a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+button {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 0.7rem;
+  width: 280px;
+  font-weight: 700;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+  margin-bottom: 1rem;
+}
+button:hover {
+  background-color: #766CF1;
+}
+a.cancel-order {
+  cursor: pointer;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 1rem;
+}
+a.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+
+
+.attribution { font-size: 12px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
